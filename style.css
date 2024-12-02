@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Livvic", sans-serif;
+}
+
+.contanier {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #014E56;
+    height: 517px;
+}
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.btn1 {
+    width: 153px;
+    height: 48px;
+    border-radius: 100px;
+    border: white solid 3px;
+    background-color: #014E56;
+    color: white;
+}
+
+.head2 {
+    padding-top: 130px;
+    display: flex;
+    gap: 200px;
+}
+
+.p1 {
+    width: 730px;
+    height: 112px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 60px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.main {
+    background-color: #004047;
+    height: 600px;
+}
+
+h2 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    padding-top: 100px;
+}
+
+.p2 {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #79C8C7;
+    margin-top: 30px;
+}
+
+.p3 {
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.boxs {
+    width: 350px;
+    height: 274px;
+    background-color: #012F34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.img1 {
+    width: 96px;
+    height: 96px;
+}
+
+.main2 {
+    height: 355px;
+    background-color: #012F34;
+}
+
+.img2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.redy {
+    height: 200px;
+    background-color: #F67E7E;
+}
+
+.btn2 {
+    width: 153px;
+    height: 48px;
+    border-radius: 100px;
+    border: black solid 3px;
+    background-color: #F67E7E;
+    color: black;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.logo {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+h3 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.fot {
+    background: #002529;
+    height: 196px;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu {
+    display: none;
+}
+
+.ilogo {
+    height: 37px;
+}
+.img4 {
+    width: 165px;
+    height: 22px;
+}
+
+@media(max-width: 768px) {
+    .header {
+        height: 556px;
+        padding: 0 30px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .p1 {
+        height: 140px;
+        margin-top: -250px;
+        text-align: center;
+    }
+
+    .head2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main {
+        height: 909px;
+        padding: 0 10px;
+    }
+
+    .box {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .main2 {
+        background-color: #004047;
+    }
+
+    .logo {
+        height: 308px;
+        display: flex;
+    }
+
+    .img4 {
+        width: 114px;
+        height: 14px;
+    }
+
+    h3 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .div {
+        padding: 50px 20px;
+    }
+
+    .fot {
+        padding: 10px 20px;
+    }
+
+    .ilogo {
+        height: 25px;
+    }
+}
+
+
+
+@media(max-width:375px) {
+    .header {
+        height: 520px;
+    }
+
+    .ul1 {
+        display: none;
+    }
+
+    .btn1 {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    h1 {
+        font-family: Livvic;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .p1 {
+        font-family: Livvic;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 327px;
+        height: 196px;
+
+
+    }
+
+    .logo {
+        flex-direction: column;
+        height: 19px;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .main {
+        height: 1389px;
+    }
+
+    .main2 {
+        height: 517.68px;
+        background-color: #012F34;
+
+    }
+
+    .div {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .div2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 60px;
+    }
+
+    h3 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .img7 {
+        width: 95px;
+        height: 24px;
+    }
+
+    .ilogo {
+        width: 104px;
+        height: 24px;
+    }
+
+}
